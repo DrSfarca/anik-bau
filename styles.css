@@ -1,0 +1,142 @@
+/* ------------------ */
+/* Reset              */
+/* ------------------ */
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset Margins */
+body {
+  margin: 0;
+}
+
+/* Body setup */
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* make forms easier to work with */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ------------------ */
+/* Utility Clasess    */
+/* ------------------ */
+
+.flex {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: space-between;
+}
+
+.container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: bold;
+}
+
+.side-padding {
+  padding-inline: 6rem;
+}
+
+.h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.header-img {
+  position: relative;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(61, 53, 53, 0.5)
+    ),
+    url("img/277289616_154989510305635_8476784010006690033_n.jpeg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(80%);
+}
+
+.header-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -0%);
+  text-align: center;
+  font-size: 25px;
+  line-height: 2;
+  color: #fff;
+}
+
+.header-text h1 {
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+.img-4 {
+  background-image: url("img/fenster.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+.bodenbelag-img {
+  max-height: 30rem;
+  max-width: 20rem;
+}
+
+.trockenbau-img {
+  height: 30rem;
+}
+
+.footer {
+  background-color: #555;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.turen {
+  text-align: center;
+}
+
+.turen h1 {
+  font-size: 50px;
+  margin: 0 0 3rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .header-text {
+    font-size: 20px;
+  }
+
+  .header-text h1 {
+    font-size: 40px;
+  }
+
+  .side-padding {
+    padding-inline: 1rem;
+  }
+}
