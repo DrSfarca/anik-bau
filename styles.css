@@ -205,21 +205,9 @@ p {
     font-size: 2.5rem;
   }
 
-  h3 {
-    font-size: 18px;
-  }
-
-  .p {
-    font-size: 12px;
-    padding: 0 1rem;
-  }
-
-  .p-bt {
-    font-size: 12px;
-  }
-
   .nav-link {
     font-size: 16px;
+    padding: 0.2rem;
   }
 
   .footer {
@@ -234,6 +222,7 @@ p {
 
   .nav-link {
     font-size: 12px;
+    padding: 0;
   }
 
   .header-text {
@@ -248,5 +237,18 @@ p {
 
   .ft {
     font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .p {
+    font-size: 12px;
+    padding: 0 1rem;
+  }
+
+  .p-bt {
+    font-size: 12px;
   }
 }
