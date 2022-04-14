@@ -162,7 +162,11 @@ p {
   margin-top: -6px;
 }
 
-.telefon {
+.telefon:link {
+  text-decoration: none;
+}
+
+.telefon:link {
   text-decoration: none;
 }
 
@@ -205,8 +209,13 @@ p {
     font-size: 18px;
   }
 
-  .description {
-    font-size: 14px;
+  .p {
+    font-size: 12px;
+    padding: 0 1rem;
+  }
+
+  .p-bt {
+    font-size: 12px;
   }
 
   .nav-link {
