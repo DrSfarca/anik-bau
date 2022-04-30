@@ -94,7 +94,7 @@ p {
       rgba(0, 0, 0, 0.5),
       rgba(61, 53, 53, 0.5)
     ),
-    url("img/277289616_154989510305635_8476784010006690033_n.jpeg");
+    url("img/bghome.jpg");
   height: 70vh;
   background-size: cover;
   background-position: center;
@@ -118,8 +118,32 @@ p {
   white-space: nowrap;
 }
 
-.img-4 {
+.img-1 {
   background-image: url("img/fenster.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+.img-2 {
+  background-image: url("img/rollo.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+.img-3 {
+  background-image: url("img/shieber.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+.img-4 {
+  background-image: url("img/holztur.jpeg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -128,11 +152,12 @@ p {
 
 .bodenbelag-img {
   max-height: 30rem;
-  max-width: 20rem;
+  max-width: 35rem;
 }
 
 .trockenbau-img {
-  height: 30rem;
+  max-height: 30rem;
+  max-width: 35rem;
 }
 
 .footer {
